@@ -18,5 +18,6 @@ input{
     text-align: center;
 }
 h1{
+    margin: 20px;
     background-color: rgb(245, 183, 102);
 }
