@@ -1,0 +1,22 @@
+.body{
+    background-color: rgb(80, 98, 95);
+}
+.profileCard {
+    display:flex;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+   
+}
+.btn{
+    text-align: center;
+    background-color: rgb(109, 106, 106);
+    
+}
+input{
+    text-align: center;
+}
+h1{
+    background-color: rgb(245, 183, 102);
+}
