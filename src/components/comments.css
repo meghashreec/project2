@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profileCard {
+    display:inline-flex;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.card-body{
+    margin: 15px;
+    /* background-color: rgb(199, 163, 233); */
+    border: 2px solid #ffc107;
+    border-radius: 4px;
+}
+.card-id{
+    padding: 05px;
+    text-align: center;
+    border-bottom: 1px solid #ffc107;
+}
+.main-content {
+    background-color: black;
+    margin-top: 0;
+}
+.heading input{
+    width: 400px;
+    margin: 10px ;
+    padding: 6px;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    color: aliceblue;
+    /* height: 40vh; */
+    /* background-color: #9da1a3; */
+    margin: 20px
+}
+.btn .btn-warning {
+    width: 115px;
+    padding: 5px;
+}
