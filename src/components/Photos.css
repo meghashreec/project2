@@ -1,22 +1,40 @@
-.body{
-    background-color: rgb(80, 98, 95);
+*{
+    margin: 0;
+    padding: 0;
 }
-.profileCard {
-    display:flex;
-}
+
+/* input{
+    text-align: center;
+} */
 h1{
-    text-align: center;
-    padding: 20px;
-   
+    background-color: rgb(116, 115, 115);
+     text-shadow: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
 }
-.btn{
-    text-align: center;
-    background-color: rgb(109, 106, 106);
+
+.photos {
+    display:inline-flex;
     
 }
-input{
-    text-align: center;
+
+.main {
+    background-color: rgb(41, 37, 37);
+    margin-top: 0;
 }
-h1{
-    background-color: rgb(245, 183, 102);
+.heading input{
+    width: 400px;
+    margin: 10px ;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    color: aliceblue;
+    margin: 10px
+}
+.btn .btn-light {
+    width: 115px;
+    padding: 5px;
 }

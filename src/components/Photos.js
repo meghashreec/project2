@@ -26,15 +26,16 @@ export class Photos extends Component {
 
   render() {
     return (
-      <div className='body'>
-         <div>
-                <h1>Photos</h1>
+      <div className='main'>
+        <br></br>
+         <div className='heading'>
+                <h1 >Photos</h1>
                 <input  type='text' onChange={(event) => {
                     this.setState({ searchItem: event.target.value });
                 }} />
                
                 
-                <button   onClick={()=>{
+                <button className='btn btn-light'  onClick={()=>{
                     let fileteredItem = this.state.photos.filter(
                         (item) => {
                             if(item.title.toLowerCase().includes(this.state.searchItem.toLowerCase()))
@@ -56,7 +57,16 @@ export class Photos extends Component {
                                 <div className="card-body">
                                 <img src={photos.imageUrl} />
                                     <p className="card-text">Title:{photos.title}</p>
-                                    <a href="#" class="card-link">{photos.url}</a><br></br><br></br>
+                                    {/* <a href="#" class="card-link">{photos.url}</a><br></br><br></br> */}
+                                    <img
+                            src={photos.url}
+                            alt={'Photo of ' + photos.id}
+                            style={{
+                            width: "300px",
+                            height: "100px",
+                            padding:"10px"
+                                }}
+                             />
                                     <a href="#" class="card-link">{photos.thumbnailUrl}</a>
                                 </div>
                             </div>
