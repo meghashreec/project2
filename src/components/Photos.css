@@ -34,7 +34,14 @@ h1{
     color: aliceblue;
     margin: 10px
 }
+<<<<<<< HEAD
 .btn .btn-light {
     width: 115px;
     padding: 5px;
 }
+=======
+h1{
+    margin: 20px;
+    background-color: rgb(245, 183, 102);
+}
+>>>>>>> 621d2522b16fcb1dc392f1663e24547142e06704

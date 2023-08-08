@@ -11,11 +11,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "styled-components": "^5.3.11",
+=======
+>>>>>>> 621d2522b16fcb1dc392f1663e24547142e06704
     "web-vitals": "^2.1.4",
     "wouter": "^2.11.0"
   },

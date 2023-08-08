@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+<<<<<<< HEAD:src/components/comments.js
 import './comments.css'
+=======
+import './comments.css';
+>>>>>>> 621d2522b16fcb1dc392f1663e24547142e06704:src/components/comments.jsx
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
