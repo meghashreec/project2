@@ -1,0 +1,14 @@
+
+.profileCard {
+    display:flex;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    background-color: gray;
+}
+input{
+    text-align: center;
+}
